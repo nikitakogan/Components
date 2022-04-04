@@ -1,0 +1,100 @@
+.input-box{
+    padding: 5em;
+    height: 120px;
+    width: 120px;
+    display:block;
+    align-items: center;
+    justify-content: center;
+}
+.input-field {
+    display: inline-flex;
+    height: 40px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.input-border {
+    padding: 2px;
+    margin: 0 auto;
+    background-color:#313131;
+    border: 0 solid transparent;
+    border-radius:3px;
+}
+
+.input-field input {
+    width: 50px;
+    height: 25px;
+    border: 1.5px solid #7f7f7f;
+    border-radius: 2px;
+    background-color:#4d4d4d;
+    color: #aaaaaa;
+}
+
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+.input-field h3 {
+    color: white;
+}
+
+.input-border.red {
+    background-color: #F74F4F ;
+}
+
+.input-border.blue {
+    background-color: #00CFFF ;
+}
+
+.input-border.green {
+    background-color: #00FF00 ;
+}
+
+.mismatch p {
+    font-size: 1em;
+    visibility: hidden;
+    margin: 0 ;
+    padding: 2px;
+    width: 120px;
+    height: 13px;
+    font-size: 12px;
+}
+
+.mismatch.red p {
+    visibility: visible;
+    color: #F74F4F ;
+}
+
+.mismatch.blue p {
+    visibility: visible;
+    color: #00CFFF ;
+}
+
+.mismatch.green p {
+    visibility: visible;
+    color: #00FF00 ;
+}
+
+.tooltipText {
+    /* visibility: hidden;  */
+    width: 120px;
+    background-color: #2e2f2f;
+    border: 1px solid #818081;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    margin: 1em auto;
+}
+
+.tooltipText.active {
+    visibility: visible;
+}

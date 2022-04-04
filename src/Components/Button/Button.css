@@ -1,0 +1,57 @@
+.button-box {
+  padding: 1em;
+  height: 120px;
+  width: 120px;
+  width: 10em;
+}
+.push-button {
+  background-color: #555656;
+  color:white;
+  width: 100%;
+  height: 100%;
+  font-size: 1.2em;
+  border: 2px solid #949293;
+}
+.button-component {
+  border: 4px solid #404041;
+  width: 120px;
+  height: 50px;
+  display: block;
+}
+
+.push-button:hover {
+  background-image: linear-gradient(to bottom, #5e5d5c 0%, #434242 45%, #2d2c2c  100%)
+}
+
+.push-button:focus {
+  background-color: #333231;
+}
+
+.button-box h3 {
+  visibility: hidden;
+  margin: 0;
+  width: 160px;
+  height: 21.5px;
+  font-size: 16px;
+}
+
+.button-box.green h3 {
+  visibility: visible;
+  color: #00FF00 ;
+}
+
+.button-box.blue h3 {
+  visibility: visible;
+  color: #00CFFF ;
+}
+
+.button-box.red h3{
+  visibility: visible;
+  color: #F74F4F ;
+}
+
+.push-button.blue {
+  border: 2px solid #00CFFF ;
+}
+
+  
